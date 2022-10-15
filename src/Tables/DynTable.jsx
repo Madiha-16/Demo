@@ -3,7 +3,7 @@ import{Grid,Gridcontainer,TextField,Card,CardContent} from "@mui/material";
 
 
  export const DynTable = () => {
-    const [arr]=useState([1,2,3,4,5,6,7,8,9,10]);
+    const [arr]=useState([1,2,3,4,5,6,7,8,9,10,12]);
     const [num,setNum]=useState(2)
     return (
         <React.Fragment>
